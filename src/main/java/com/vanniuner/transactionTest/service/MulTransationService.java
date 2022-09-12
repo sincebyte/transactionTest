@@ -78,8 +78,8 @@ public class MulTransationService {
                 OrderItem orderItem = (OrderItem) sourceData;
                 orderItemMapper.insert(orderItem);
                 if (orderItem.getAmount() == 4) {
-                    int i = 1 / 0;
-                    log.info("\n==== [error]: {}", i);
+                    // int i = 1 / 0;
+                    // log.info("\n==== [error]: {}", i);
                 }
             }
         } catch (Exception e) {
