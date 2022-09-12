@@ -1,0 +1,4 @@
+GET http://localhost:8080/healthCheck
+
+# create order
+POST http://localhost:8080/createOrder
